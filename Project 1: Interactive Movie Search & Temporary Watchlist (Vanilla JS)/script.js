@@ -164,6 +164,7 @@ function toggleMovieDetails(imdbID) {
   
   fetch(url)
     .then(response => response.json())
+    console.log(respo)
     .then(data => {
       if (data.Response === 'True') {
         detailsDiv.innerHTML = `
