@@ -1,0 +1,18 @@
+.card {
+  border: 5px solid black;
+  border-radius: 15px;
+  margin: 35px;
+  max-width: 300px;
+}
+
+
+.avatar img {
+  height: 450px;
+  
+}
+
+.skill-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
