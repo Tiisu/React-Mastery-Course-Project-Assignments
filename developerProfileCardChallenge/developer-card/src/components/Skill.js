@@ -5,4 +5,4 @@ function Skill({nameOfSkill, emoji}){
         </div>
     )
 }
-export default Skill;
+export default Skill;w
